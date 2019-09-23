@@ -5,4 +5,161 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+body {
+    font-family: Helvetica;
+}
+h5 {
+    font-size: 1.5rem;
+    margin: 1vh 0;
+}
+h4 {
+    font-size: 1rem;
+    margin: 0 0 2vh 0;;
+    color: rgba(145, 145, 145, 0.481);
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 0 0;
+}
+p {
+    font-size: 0.8rem;
+}
+
+li {
+    line-height: 2rem;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2081C3;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 8vh;
+    align-items: center;
+    padding: 0 0 0 2vw;
+
+}
+
+.navList {
+    margin: 0 0 0 2vw;
+    color: #F7F9F9;
+    text-decoration: none;
+}
+
+
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:#0A2C42;
+    color: #F7F9F9;
+    font-family: Helvetica;
+    height: 6vh;
+}
+
+.footList {
+    margin: 2vh 0 0 2vw;
+}
+
+.index-container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15vh 0 0 0;
+}
+.indexBeer {
+    margin: 4vh 0 0 0;
+}
+.indexRandom {
+    margin: 0 0 10vh 0;
+}
+.beerCart {
+    width: 23%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #2081C3;
+    color: #F7F9F9;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 18px 25px;
+}
+
+.beers {
+    width: 30%;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vh 0;
+    padding: 0 0;
+}
+
+.beerImg{
+    width: auto;
+    height: 15vh;
+}
+
+.beerDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10vh 9vw;
+    padding: 0 0;
+}
+
+.randomBeerDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2vh 4vw;
+}
+
+.randomBeer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.randomBeer-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 13vh 0 0 0;
+}
+
+.randomBeerImg {
+    height: 30vh;
+    
+}
+
+.randomBeer-bottom p {
+    font-size: 1rem;
+    margin: 0 0 2vh 0;;
+    line-height: 1.3rem;
+}
+
+.randomBeer-bottom h4 {
+    margin-top: 3vh;
+}
+.randomBeer-bottom span {
+    font-weight: bold;
+}
